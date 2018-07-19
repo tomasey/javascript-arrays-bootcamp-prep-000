@@ -9,8 +9,8 @@ function removeElementFromBegnningOfArray(a) { return a.slice(1) }
 function destructivelyRemoveElementFromEndOfArray(a) { return a.pop() }
 function removeElementFromEndOfArray(a) { return a.slice(0, a.length, -1) }
 
-destructivelyAddElementToBeginningOfArray(chocolateBars, 'starburst');
 addElementToBeginningOfArray(chocolateBars, 'm&ms');
+destructivelyAddElementToBeginningOfArray(chocolateBars, 'starburst');
 addElementToEndOfArray(chocolateBars, 'milky way');
 destructivelyAddElementToEndOfArray(chocolateBars, 'mamba');
 accessElementInArray(chocolateBars, 0);
